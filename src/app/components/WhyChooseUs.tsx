@@ -12,7 +12,7 @@ export default function WhyChooseUs() {
                 <p className="why-choose-subtitle">OUR STORY & SERVICES</p>
                 <h2 className="why-choose-title">Kenapa Pilih Kami?</h2>
                 <p className="why-choose-description">
-                  "Berlandaskan komitmen, kami menghadirkan layanan pengantaran yang aman, cepat, dan terpercaya, memastikan setiap kiriman sampai tepat waktu."
+                  Berlandaskan komitmen, kami menghadirkan layanan pengantaran yang aman, cepat, dan terpercaya, memastikan setiap kiriman sampai tepat waktu.
                 </p>
                 <button className="explore-btn" onClick={exploreServices}>Explore</button>
               </div>
