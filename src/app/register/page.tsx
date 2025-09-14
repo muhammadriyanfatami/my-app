@@ -1,11 +1,5 @@
-import RegisterForm from "../components/RegisterForm";
-import RegisterHero from "../components/RegisterHero";
+import RegisterPage from "../components/register";
 
-export default function RegisterPage() {
-  return (
-    <div>
-      <RegisterHero />
-      <RegisterForm />
-    </div>
-  );
+export default function Page() {
+  return <RegisterPage />;
 }

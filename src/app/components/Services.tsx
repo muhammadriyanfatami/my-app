@@ -10,9 +10,11 @@ export default function Services() {
             </div>
             <div className="services-grid">
               <div className="service-card">
-                <div className="service-icon">🚴‍♂️</div>
+                <div className="service-icon">
+                  <img src="motorantar.png" alt="motorantar" />
+                </div>
                 <h3 className="service-title">Pengantaran Kilat</h3>
-                <p className="service-description">Dalam 15 menit sampai di tujuan</p>
+                <p className="service-description">Pengiriman Instan(1-2 jam sampai)</p>
                 <div className="service-rating">
                   <div className="stars">★★★★★</div>
                   <span className="rating-text">4.8</span>
@@ -20,9 +22,10 @@ export default function Services() {
                 <button className="order-btn">Order Now</button>
               </div>
               <div className="service-card">
-                <div className="service-icon">🚗</div>
-                <h3 className="service-title">Jemput Kirim</h3>
-                <p className="service-description">Dalam 2 jam sampai di tujuan</p>
+                <div className="service-icon">
+                  <img src="jam.png" alt="jam" />
+                </div>
+                <h3 className="service-title">Jadwal Kirim</h3>
                 <div className="service-rating">
                   <div className="stars">★★★★★</div>
                   <span className="rating-text">4.9</span>
@@ -30,9 +33,10 @@ export default function Services() {
                 <button className="order-btn">Order Now</button>
               </div>
               <div className="service-card">
-                <div className="service-icon">🚛</div>
+                <div className="service-icon">
+                  <img src="multiDrop.png" alt="multiDrop" />
+                </div>
                 <h3 className="service-title">Multi-Drop</h3>
-                <p className="service-description">Mulai dari 4 jam pengantaran</p>
                 <div className="service-rating">
                   <div className="stars">★★★★★</div>
                   <span className="rating-text">4.7</span>

@@ -1,5 +1,5 @@
-export default function Testimonial() {
-      const exploreServices = () => {
+export default function FoodsWhyChooseUs() {
+  const exploreServices = () => {
     document.getElementById("services")?.scrollIntoView({ behavior: "smooth" });
   };
   return (

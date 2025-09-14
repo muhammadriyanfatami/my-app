@@ -1,41 +1,48 @@
 "use client";
 
 export default function WhyChooseUs() {
-      const exploreServices = () => {
-    document.getElementById("services")?.scrollIntoView({ behavior: "smooth" });
-  };
   return (
-    <section className="why-choose-us" id="about">
+<section className="WhyChooseUs" id="whychooseUs">
           <div className="container">
-            <div className="why-choose-content">
-              <div className="why-choose-text">
-                <p className="why-choose-subtitle">OUR STORY & SERVICES</p>
-                <h2 className="why-choose-title">Kenapa Pilih Kami?</h2>
-                <p className="why-choose-description">
-                  Berlandaskan komitmen, kami menghadirkan layanan pengantaran yang aman, cepat, dan terpercaya, memastikan setiap kiriman sampai tepat waktu.
-                </p>
-                <button className="explore-btn" onClick={exploreServices}>Explore</button>
+            <div className="testimonial-content">
+              <div className="testimonial-image">
+                <div className="delivery-person-illustration">
+                  <img src={"/bule.png"} alt="bule" />
+                </div>
               </div>
-              <div className="features-grid-new">
-                <div className="feature-card-new">
-                  <div className="feature-icon-new">👨‍💼</div>
-                  <h3 className="feature-title-new">AMAN</h3>
-                  <p className="feature-description-new">Mengutamakan yang cepat, aman, dan terpercaya.</p>
+              <div className="testimonial-text">
+                <h2 className="testimonial-title">
+                  What Our Customers<br />Say About Us
+                </h2>
+                <p className="testimonial-description">
+                  CAR Express telah menjadi pilihan utama ribuan pelanggan
+                  untuk kebutuhan pengantaran mereka. Dengan layanan yang cepat,
+                  aman, dan terpercaya, kami berkomitmen memberikan pengalaman terbaik.
+                </p>
+                <div className="testimonial-stats">
+                  <div className="stat-item">
+                    <div className="stat-number">546+</div>
+                    <div className="stat-label">Registered riders</div>
+                  </div>
+                  <div className="stat-item">
+                    <div className="stat-number">789,900+</div>
+                    <div className="stat-label">Orders Delivered</div>
+                  </div>
+                  <div className="stat-item">
+                    <div className="stat-number">865,000+</div>
+                    <div className="stat-label">Satisfied Customers</div>
+                  </div>
                 </div>
-                <div className="feature-card-new">
-                  <div className="feature-icon-new">⚡</div>
-                  <h3 className="feature-title-new">FAST DELIVERY</h3>
-                  <p className="feature-description-new">Pengiriman Anda, sampai di tujuan yang tepat waktu.</p>
-                </div>
-                <div className="feature-card-new">
-                  <div className="feature-icon-new">📍</div>
-                  <h3 className="feature-title-new">LOKAL</h3>
-                  <p className="feature-description-new">Melayani untuk area lokal dengan pengiriman berkualitas.</p>
-                </div>
-                <div className="feature-card-new">
-                  <div className="feature-icon-new">💰</div>
-                  <h3 className="feature-title-new">TERJANGKAU</h3>
-                  <p className="feature-description-new">Memberikan pelayanan terbaik dengan harga yang terjangkau.</p>
+                <div className="customer-reviews">
+                  <div className="customer-avatars">
+                    <div className="avatar">👨</div>
+                    <div className="avatar">👩</div>
+                    <div className="avatar">👨</div>
+                  </div>
+                  <div>
+                    <div className="review-text">Our happy customers</div>
+                    <div className="review-subtext">4.8 • 12.5k Reviews</div>
+                  </div>
                 </div>
               </div>
             </div>
