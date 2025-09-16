@@ -3,6 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono&family=Geist+Sans&display=swap');
+
 /* Variabel warna dasar */
 html, body {
   margin: 0;
