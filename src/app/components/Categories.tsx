@@ -28,12 +28,12 @@ export default function Categories() {
           </Link>
 
           {/* Titip Belanja */}
-          <div className="category-card">
+          <Link href="/kebutuhan" className="category-card">
             <div className="category-icon">
               <img src="titipbeli.png" alt="titipbeli" />
             </div>
             <div className="category-title">Titip Belanja</div>
-          </div>
+          </Link>
 
           {/* Paket Besar */}
           <div className="category-card">
