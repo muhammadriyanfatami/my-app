@@ -45,9 +45,9 @@ export default function FoodsTestimonial() {
               What Our Customers Say About Us
             </h2>
             <p className="text-gray-600 mb-8 leading-relaxed">
-              "Makanan disajikan dengan sepenuh hati dan rasa yang autentik.
+              &quot;Makanan disajikan dengan sepenuh hati dan rasa yang autentik.
               Pengiriman juga sangat cepat dan aman, sehingga makanan sampai
-              dalam keadaan hangat dan segar. Sangat memuaskan!"
+              dalam keadaan hangat dan segar. Sangat memuaskan!&quot;
             </p>
             <div className="flex items-center space-x-4">
               <div className="flex -space-x-2">

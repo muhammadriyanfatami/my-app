@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ChevronDown, Search, User } from "lucide-react";
+import { ChevronDown, Link, Search, User } from "lucide-react";
 
 export default function FoodsHeader() {
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
@@ -20,9 +20,9 @@ export default function FoodsHeader() {
 
           {/* Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <a href="/" className="text-orange-500 font-medium">
+            <Link href="home" className="text-orange-500 font-medium">
               HOME
-            </a>
+            </Link>
             <div className="relative">
               <button
                 className="flex items-center text-gray-700 hover:text-gray-900"

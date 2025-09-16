@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
                 <div className={styles.heroContent}>
                     <div className={styles.heroText}>
                         <h1>Belanja Harus Ribet?<br />Kenapa Nggak Lebih Mudah?</h1>
-                        <p>"Temukan solusi belanja, dari ribuan<br />produk pilihan"</p>
+                        <p>&quot;Temukan solusi belanja, dari ribuan<br />produk pilihan&quot;</p>
                     </div>
                     <div className={styles.heroImage}>
                         <div className={styles.heroCharacter}>

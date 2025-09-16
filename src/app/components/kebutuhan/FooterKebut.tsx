@@ -1,4 +1,5 @@
 "use client";
+import { Link } from "lucide-react";
 import React from "react";
 
 
@@ -43,10 +44,10 @@ export default function FoodsFooter() {
           <div>
             <h3 className="font-bold mb-4">Main Menu</h3>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="/" className="hover:text-white">Home</a></li>
-              <li><a href="#" className="hover:text-white">Offers</a></li>
-              <li><a href="#" className="hover:text-white">Menus</a></li>
-              <li><a href="#" className="hover:text-white">Reservation</a></li>
+              <li><Link href="home" className="hover:text-white">Home</Link></li>
+              <li><Link href="#" className="hover:text-white">Offers</Link></li>
+              <li><Link href="#" className="hover:text-white">Menus</Link></li>
+              <li><Link href="#" className="hover:text-white">Reservation</Link></li>
             </ul>
           </div>
 

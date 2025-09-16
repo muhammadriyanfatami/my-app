@@ -1,6 +1,6 @@
 "use client";
 
-import { Search, Menu, ChevronDown } from "lucide-react";
+import { Search, Menu, ChevronDown, Link } from "lucide-react";
 import { useState } from "react";
 
 export default function Header() {
@@ -21,7 +21,7 @@ export default function Header() {
 
           {/* Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <a href="/" className="text-orange-500 font-medium hover:text-orange-600 transition-colors">Home</a>
+            <Link href="home" className="text-orange-500 font-medium hover:text-orange-600 transition-colors">Home</Link>
             <div className="relative">
               <button className="flex items-center text-gray-700 hover:text-gray-900 font-medium transition-colors">
                 Pricing <ChevronDown className="ml-1 w-4 h-4" />
